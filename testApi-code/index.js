@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const jsonParser = bodyParser.json();
-const jwt = require("jsonwebtoken");
+const jwt = require("jsonwebtoken");//not in use
 
 const app = express();
 const PORT = 8070;
